@@ -1,0 +1,7 @@
+services:
+  scheduler:
+    volumes:
+      - ./scripts:/usr/local/airflow/scripts
+      - ./data:/usr/local/airflow/data
+      - ./.env:/usr/local/airflow/.env
+      - ./my_dbt_project:/usr/local/airflow/my_dbt_project  # تأكد من المسار حسب عندك
