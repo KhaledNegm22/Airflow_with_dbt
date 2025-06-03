@@ -1,0 +1,5 @@
+you might run into an error that you tried to access the db using the same port used by docker .. so make sure to change the port 
+
+also i will make another version without dbt using only python scripts to manage transformations and run it using airflow (astro cli)
+
+thanks.....
