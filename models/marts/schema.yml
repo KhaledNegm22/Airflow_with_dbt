@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: data_source     
+    schema: data_source   
+    tables:
+      - name: sales
+      - name: leads
