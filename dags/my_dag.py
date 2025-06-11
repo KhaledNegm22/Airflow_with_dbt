@@ -27,4 +27,4 @@ with DAG(
     env={"DBT_PROFILES_DIR": "/usr/local/airflow/my_dbt_project"},
     )
 
-    load_script >> run_dbt  # ترتيب التنفيذ
+    load_script >> run_dbt
